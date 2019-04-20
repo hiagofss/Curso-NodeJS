@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0555ba2-5b2b-4434-864d-f7edc213a3a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Projeto01/views/layout/main.handlebars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projeto01/views/formulario.handlebars" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projeto01/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto01/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto01/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto01/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto01/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto01/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto01/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto01/views/layout/main.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto01/views/layouts/main.handlebars" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,17 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Projeto01/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Projeto01/views/layout/main.handlebars">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="303">
+              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -82,6 +71,7 @@
         <option value="$PROJECT_DIR$/Projeto01/projeto.sql" />
         <option value="$PROJECT_DIR$/Projeto01/test.js" />
         <option value="$PROJECT_DIR$/Projeto01/views/layout/main.handlebars" />
+        <option value="$PROJECT_DIR$/Projeto01/views/formulario.handlebars" />
         <option value="$PROJECT_DIR$/Projeto01/index.js" />
       </list>
     </option>
@@ -107,6 +97,12 @@
               <item name="nodejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="nodejs" type="462c0819:PsiDirectoryNode" />
               <item name="Projeto01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodejs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodejs" type="462c0819:PsiDirectoryNode" />
+              <item name="Projeto01" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nodejs" type="b2602c69:ProjectViewProjectNode" />
@@ -136,6 +132,10 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hiago\Desktop\Workspace\nodejs\Projeto01\views" />
+      <recent name="C:\Users\hiago\Desktop\Workspace\nodejs\Projeto01\views\layout" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hiago\Desktop\Workspace\nodejs\Projeto01\html" />
     </key>
@@ -177,7 +177,7 @@
       <workItem from="1555732528565" duration="492000" />
       <workItem from="1555769582394" duration="4886000" />
       <workItem from="1555794296409" duration="750000" />
-      <workItem from="1555795132613" duration="3571000" />
+      <workItem from="1555795132613" duration="4828000" />
     </task>
     <task id="LOCAL-00001" summary="Aula 04">
       <created>1555732681554</created>
@@ -221,17 +221,24 @@
       <option name="project" value="LOCAL" />
       <updated>1555800941499</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="19_Handlebars">
+      <created>1555801688407</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1555801688407</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10359000" />
+    <option name="totallyTimeSpent" value="11616000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2297593" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23960613" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Project Explorer" order="3" />
@@ -248,7 +255,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32932165" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989059" weight="0.3118162" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989059" visible="true" weight="0.3118162" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010941" side_tool="true" weight="0.3118162" />
       <window_info anchor="bottom" id="Console" order="11" />
       <window_info anchor="bottom" id="DB Execution Console" order="12" />
@@ -295,7 +302,8 @@
     <MESSAGE value="13_Mysql" />
     <MESSAGE value="16_Sequelize" />
     <MESSAGE value="18_Models no Sequelize" />
-    <option name="LAST_COMMIT_MESSAGE" value="18_Models no Sequelize" />
+    <MESSAGE value="19_Handlebars" />
+    <option name="LAST_COMMIT_MESSAGE" value="19_Handlebars" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/04_Modulos/div.js">
@@ -348,13 +356,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fd6b7b07-8e6a-4bae-b9d0-8e616ad18e77/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projeto01/projeto.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Projeto01/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -369,13 +370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projeto01/views/layout/main.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Projeto01/test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -383,10 +377,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Projeto01/projeto.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projeto01/views/layouts/main.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projeto01/views/formulario.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Projeto01/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="303">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
         </state>
       </provider>
     </entry>
