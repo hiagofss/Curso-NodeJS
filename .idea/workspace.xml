@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0555ba2-5b2b-4434-864d-f7edc213a3a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/05_Protocolo HTTP/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projeto01/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projeto01/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto01/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto01/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Projeto01/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="352">
+              <caret line="16" column="98" selection-start-line="16" selection-start-column="98" selection-end-line="16" selection-end-column="98" />
             </state>
           </provider>
         </entry>
@@ -95,9 +93,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Projeto01/index.js" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -136,7 +141,7 @@
       <workItem from="1555731841397" duration="85000" />
       <workItem from="1555731940460" duration="575000" />
       <workItem from="1555732528565" duration="492000" />
-      <workItem from="1555769582394" duration="1359000" />
+      <workItem from="1555769582394" duration="1985000" />
     </task>
     <task id="LOCAL-00001" summary="Aula 04">
       <created>1555732681554</created>
@@ -149,7 +154,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2511000" />
+    <option name="totallyTimeSpent" value="3137000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -228,8 +233,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Projeto01/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        <state relative-caret-position="352">
+          <caret line="16" column="98" selection-start-line="16" selection-start-column="98" selection-end-line="16" selection-end-column="98" />
         </state>
       </provider>
     </entry>

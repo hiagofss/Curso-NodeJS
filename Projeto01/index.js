@@ -13,6 +13,9 @@ app.get("/blog", function (red, res ) {
     res.send("Bem vindo ao meu blog!");
 });
 
+app.get("/ola/:nome/:cargo/:cor", function (req, res ) {
+    res.send("Ola "+req.params.nome + "Cargo "+req.params.cargo + "Cor Favorita "+req.params.cor);
+});
 
 
 
