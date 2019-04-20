@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0555ba2-5b2b-4434-864d-f7edc213a3a6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Projeto01/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto01/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="c0555ba2-5b2b-4434-864d-f7edc213a3a6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -141,7 +139,7 @@
       <workItem from="1555731841397" duration="85000" />
       <workItem from="1555731940460" duration="575000" />
       <workItem from="1555732528565" duration="492000" />
-      <workItem from="1555769582394" duration="2120000" />
+      <workItem from="1555769582394" duration="2370000" />
     </task>
     <task id="LOCAL-00001" summary="Aula 04">
       <created>1555732681554</created>
@@ -154,11 +152,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3272000" />
+    <option name="totallyTimeSpent" value="3522000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24679486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
