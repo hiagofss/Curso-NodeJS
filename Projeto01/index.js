@@ -14,7 +14,7 @@ app.get("/blog", function (red, res ) {
 });
 
 app.get("/ola/:nome/:cargo/:cor", function (req, res ) {
-    res.send("Ola "+req.params.nome + "Cargo "+req.params.cargo + "Cor Favorita "+req.params.cor);
+    res.send("<h1>Ola "+req.params.nome+"</h1>" + "<h2> Cargo "+req.params.cargo +"</h2>" + "<h3> Cor Favorita "+req.params.cor + "</h3>");
 });
 
 
