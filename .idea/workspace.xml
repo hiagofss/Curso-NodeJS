@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0555ba2-5b2b-4434-864d-f7edc213a3a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Projeto01/views/formulario.handlebars" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto01/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto01/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto01/views/layout/main.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto01/views/layouts/main.handlebars" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,8 +37,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Projeto01/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="572">
+              <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Projeto01/views/formulario.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -177,7 +183,7 @@
       <workItem from="1555732528565" duration="492000" />
       <workItem from="1555769582394" duration="4886000" />
       <workItem from="1555794296409" duration="750000" />
-      <workItem from="1555795132613" duration="4828000" />
+      <workItem from="1555795132613" duration="6146000" />
     </task>
     <task id="LOCAL-00001" summary="Aula 04">
       <created>1555732681554</created>
@@ -228,17 +234,31 @@
       <option name="project" value="LOCAL" />
       <updated>1555801688407</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="20_Como criar um formulário">
+      <created>1555802970558</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1555802970558</updated>
+    </task>
+    <task id="LOCAL-00009" summary="21_Como enviar dados do formulário">
+      <created>1555803412228</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1555803412228</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11616000" />
+    <option name="totallyTimeSpent" value="12934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23960613" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23960613" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Project Explorer" order="3" />
@@ -255,7 +275,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32932165" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989059" visible="true" weight="0.3118162" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989059" weight="0.3118162" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010941" side_tool="true" weight="0.3118162" />
       <window_info anchor="bottom" id="Console" order="11" />
       <window_info anchor="bottom" id="DB Execution Console" order="12" />
@@ -303,7 +323,9 @@
     <MESSAGE value="16_Sequelize" />
     <MESSAGE value="18_Models no Sequelize" />
     <MESSAGE value="19_Handlebars" />
-    <option name="LAST_COMMIT_MESSAGE" value="19_Handlebars" />
+    <MESSAGE value="20_Como criar um formulário" />
+    <MESSAGE value="21_Como enviar dados do formulário" />
+    <option name="LAST_COMMIT_MESSAGE" value="21_Como enviar dados do formulário" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/04_Modulos/div.js">
@@ -394,14 +416,14 @@
     <entry file="file://$PROJECT_DIR$/Projeto01/views/formulario.handlebars">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Projeto01/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="572">
+          <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
         </state>
       </provider>
     </entry>
