@@ -5,6 +5,7 @@ const bodyParser = require('body-parser');
 const app = express();
 // const mongoose = require('mongoose');
 const admin = require('./routes/admin');
+const path = require('path')
 
 // Configurações
 //Body Parser
@@ -16,12 +17,15 @@ app.engine('handlebars', handlebars({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 //Mongoose
 
-//Rotas
-app.use('/', (req, res) =>{
-    res.send("Rota principal")
-});
+//Public
+app.use(express.static(path.join(__dirname, "public")))
 
-app.use('/posts', (req, res) =>{
+//Rotas
+// app.use('/', (req, res) => {
+//     res.send("Rota principal")
+// });
+
+app.use('/posts', (req, res) => {
     res.send("Pagina de posts")
 });
 
