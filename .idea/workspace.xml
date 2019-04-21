@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0555ba2-5b2b-4434-864d-f7edc213a3a6" name="Default Changelist" comment="Formulário de categorias #34">
-      <change afterPath="$PROJECT_DIR$/blogapp/models/Categorias.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogapp/views/admin/addcategoria.handlebars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogapp/views/admin/categorias.handlebars" afterDir="false" />
+    <list default="true" id="c0555ba2-5b2b-4434-864d-f7edc213a3a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogapp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogapp/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogapp/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogapp/routes/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogapp/views/partials/_navbar.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/blogapp/views/partials/_navbar.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogapp/models/Categorias.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogapp/models/Categorias.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blogapp/models/Categorias.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+            <state relative-caret-position="352">
+              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -275,7 +270,7 @@
       <workItem from="1555769582394" duration="4886000" />
       <workItem from="1555794296409" duration="750000" />
       <workItem from="1555795132613" duration="15679000" />
-      <workItem from="1555880700366" duration="2957000" />
+      <workItem from="1555880700366" duration="3015000" />
     </task>
     <task id="LOCAL-00001" summary="Aula 04">
       <created>1555732681554</created>
@@ -424,11 +419,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555884153427</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Definindo o model de categorias #35">
+      <created>1555885520742</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1555885520742</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25424000" />
+    <option name="totallyTimeSpent" value="25482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -551,7 +553,8 @@
     <MESSAGE value="Iniciando projeto Express.js #31" />
     <MESSAGE value="Grupo de rotas no Express.js #32" />
     <MESSAGE value="Arquivos estáticos #33" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arquivos estáticos #33" />
+    <MESSAGE value="Definindo o model de categorias #35" />
+    <option name="LAST_COMMIT_MESSAGE" value="Definindo o model de categorias #35" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/04_Modulos/div.js">
@@ -725,13 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogapp/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Projeto01/models/Post.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -739,10 +735,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blogapp/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blogapp/models/Categorias.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        <state relative-caret-position="352">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
         </state>
       </provider>
     </entry>

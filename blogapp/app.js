@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const mongoose = require('mongoose');
 const admin = require('./routes/admin');
-const path = require('path')
+const path = require('path');
 
 // Configurações
 //Body Parser
@@ -25,7 +25,7 @@ mongoose.connect('mongodb://localhost/blogapp', {useNewUrlParser: true}).then(()
 });
 
 //Public
-app.use(express.static(path.join(__dirname, "public")))
+app.use(express.static(path.join(__dirname, "public")));
 
 //Rotas
 // app.use('/', (req, res) => {
