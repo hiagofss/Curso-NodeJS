@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0555ba2-5b2b-4434-864d-f7edc213a3a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Projeto02/aprendendo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto01/views/home.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto01/views/home.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto02/aprendendo.js" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto02/aprendendo.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Projeto02/aprendendo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="74" selection-start-line="3" selection-start-column="74" selection-end-line="3" selection-end-column="74" />
+            <state relative-caret-position="537">
+              <caret line="57" column="14" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -76,8 +76,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+    <option name="x" value="964" />
+    <option name="width" value="963" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -171,7 +171,7 @@
       <workItem from="1555732528565" duration="492000" />
       <workItem from="1555769582394" duration="4886000" />
       <workItem from="1555794296409" duration="750000" />
-      <workItem from="1555795132613" duration="11935000" />
+      <workItem from="1555795132613" duration="13006000" />
     </task>
     <task id="LOCAL-00001" summary="Aula 04">
       <created>1555732681554</created>
@@ -285,17 +285,24 @@
       <option name="project" value="LOCAL" />
       <updated>1555855583673</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Iniciando com Mongoose #29">
+      <created>1555870304194</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1555870304194</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18723000" />
+    <option name="totallyTimeSpent" value="19794000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="964" y="0" width="963" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23960613" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24252492" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Project Explorer" order="3" />
@@ -317,11 +324,11 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010941" side_tool="true" weight="0.3118162" />
       <window_info anchor="bottom" id="Console" order="11" />
       <window_info anchor="bottom" id="DB Execution Console" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32932165" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" weight="0.32932165" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32932165" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32890365" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2297593" />
@@ -393,7 +400,8 @@
     <MESSAGE value="23_Estruturando banco de dados" />
     <MESSAGE value="Pegando dados do formulário #24" />
     <MESSAGE value="Listando dados do banco #24" />
-    <option name="LAST_COMMIT_MESSAGE" value="Listando dados do banco #24" />
+    <MESSAGE value="Iniciando com Mongoose #29" />
+    <option name="LAST_COMMIT_MESSAGE" value="Iniciando com Mongoose #29" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/04_Modulos/div.js">
@@ -532,8 +540,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Projeto02/aprendendo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="74" selection-start-line="3" selection-start-column="74" selection-end-line="3" selection-end-column="74" />
+        <state relative-caret-position="537">
+          <caret line="57" column="14" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
         </state>
       </provider>
     </entry>
