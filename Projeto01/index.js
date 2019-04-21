@@ -1,24 +1,24 @@
 const express = require("express");
 const app = express();
-const handlebars = require('express-handlebars')
-const bodyParser = require('body-parser')
-const Post = require('./models/Post')
+const handlebars = require('express-handlebars');
+const bodyParser = require('body-parser');
+const Post = require('./models/Post');
 
 //Config
 //Template engine
 app.engine('handlebars', handlebars({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 //BodyParser
-app.use(bodyParser.urlencoded({extended: false}))
-app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.json());
 
 //Rotas
 app.get('/home', function (req, res) {
-    res.render('home');
-})
+    res.render('home')
+});
 
 app.get('/cad', function (req, res) {
-    res.render('formulario');
+    res.render('formulario')
 });
 
 app.post('/add', function (req, res) {

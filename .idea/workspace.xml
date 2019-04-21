@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0555ba2-5b2b-4434-864d-f7edc213a3a6" name="Default Changelist" comment="23_Estruturando banco de dados">
-      <change afterPath="$PROJECT_DIR$/Projeto01/views/home.handlebars" afterDir="false" />
+    <list default="true" id="c0555ba2-5b2b-4434-864d-f7edc213a3a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projeto01/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto01/index.js" afterDir="false" />
     </list>
@@ -34,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Projeto01/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+            <state relative-caret-position="44">
+              <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -200,7 +199,7 @@
       <workItem from="1555732528565" duration="492000" />
       <workItem from="1555769582394" duration="4886000" />
       <workItem from="1555794296409" duration="750000" />
-      <workItem from="1555795132613" duration="8584000" />
+      <workItem from="1555795132613" duration="8673000" />
     </task>
     <task id="LOCAL-00001" summary="Aula 04">
       <created>1555732681554</created>
@@ -286,11 +285,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555814261662</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Pegando dados do formulário #24">
+      <created>1555854345838</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1555854345838</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15372000" />
+    <option name="totallyTimeSpent" value="15461000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -392,7 +398,8 @@
     <MESSAGE value="21_Como enviar dados do formulário" />
     <MESSAGE value="22_Body parser" />
     <MESSAGE value="23_Estruturando banco de dados" />
-    <option name="LAST_COMMIT_MESSAGE" value="23_Estruturando banco de dados" />
+    <MESSAGE value="Pegando dados do formulário #24" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pegando dados do formulário #24" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/04_Modulos/div.js">
@@ -524,8 +531,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Projeto01/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        <state relative-caret-position="44">
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
         </state>
       </provider>
     </entry>
