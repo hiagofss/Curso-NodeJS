@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0555ba2-5b2b-4434-864d-f7edc213a3a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blogapp/views/partials/_msg.handlebars" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogapp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogapp/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogapp/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogapp/routes/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogapp/views/admin/addcategoria.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/blogapp/views/admin/addcategoria.handlebars" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,20 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blogapp/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blogapp/models/Categorias.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+            <state relative-caret-position="-88">
+              <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -51,8 +45,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blogapp/routes/admin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="743">
-              <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+            <state relative-caret-position="366">
+              <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+              <folding>
+                <element signature="e#790#841#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blogapp/views/admin/addcategoria.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state>
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -75,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blogapp/views/layouts/main.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            <state relative-caret-position="242">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -142,18 +139,19 @@
         <option value="$PROJECT_DIR$/blogapp/views/admin/index.handlebars" />
         <option value="$PROJECT_DIR$/blogapp/views/partials/_navabar.handlebars" />
         <option value="$PROJECT_DIR$/blogapp/views/partials/_navbar.handlebars" />
-        <option value="$PROJECT_DIR$/blogapp/views/layouts/main.handlebars" />
         <option value="$PROJECT_DIR$/blogapp/views/admin/categorias.handlebars" />
-        <option value="$PROJECT_DIR$/blogapp/views/admin/addcategoria.handlebars" />
         <option value="$PROJECT_DIR$/blogapp/models/Categorias.js" />
-        <option value="$PROJECT_DIR$/blogapp/routes/admin.js" />
         <option value="$PROJECT_DIR$/blogapp/app.js" />
+        <option value="$PROJECT_DIR$/blogapp/views/admin/addcategoria.handlebars" />
+        <option value="$PROJECT_DIR$/blogapp/views/partials/_msg.handlebars" />
+        <option value="$PROJECT_DIR$/blogapp/routes/admin.js" />
+        <option value="$PROJECT_DIR$/blogapp/views/layouts/main.handlebars" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+    <option name="x" value="949" />
+    <option name="width" value="978" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -176,13 +174,33 @@
             <path>
               <item name="nodejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="nodejs" type="462c0819:PsiDirectoryNode" />
-              <item name="Projeto01" type="462c0819:PsiDirectoryNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nodejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="nodejs" type="462c0819:PsiDirectoryNode" />
-              <item name="Projeto01" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodejs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodejs" type="462c0819:PsiDirectoryNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodejs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodejs" type="462c0819:PsiDirectoryNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodejs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodejs" type="462c0819:PsiDirectoryNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nodejs" type="b2602c69:ProjectViewProjectNode" />
@@ -218,12 +236,12 @@
     <property name="ts.external.directory.path" value="C:\Users\hiago\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\191.6707.60\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hiago\Desktop\Workspace\nodejs\Projeto01\html" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hiago\Desktop\Workspace\nodejs\Projeto01\views" />
       <recent name="C:\Users\hiago\Desktop\Workspace\nodejs\Projeto01\views\layout" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\hiago\Desktop\Workspace\nodejs\Projeto01\html" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -264,7 +282,7 @@
       <workItem from="1555769582394" duration="4886000" />
       <workItem from="1555794296409" duration="750000" />
       <workItem from="1555795132613" duration="15679000" />
-      <workItem from="1555880700366" duration="4462000" />
+      <workItem from="1555880700366" duration="6955000" />
     </task>
     <task id="LOCAL-00001" summary="Aula 04">
       <created>1555732681554</created>
@@ -434,17 +452,24 @@
       <option name="project" value="LOCAL" />
       <updated>1555886138753</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Middlewares #38">
+      <created>1555889623818</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1555889623818</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26929000" />
+    <option name="totallyTimeSpent" value="29422000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="949" y="0" width="978" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26586434" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647059" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Project Explorer" order="3" />
@@ -563,7 +588,8 @@
     <MESSAGE value="Arquivos estáticos #33" />
     <MESSAGE value="Definindo o model de categorias #35" />
     <MESSAGE value="Cadastrando categorias no banco de dados #36" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cadastrando categorias no banco de dados #36" />
+    <MESSAGE value="Middlewares #38" />
+    <option name="LAST_COMMIT_MESSAGE" value="Middlewares #38" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/04_Modulos/div.js">
@@ -702,13 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogapp/views/layouts/main.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Projeto02/aprendendo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -723,20 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogapp/models/Categorias.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogapp/views/admin/addcategoria.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blogapp/views/admin/categorias.handlebars">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -744,17 +749,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogapp/routes/admin.js">
+    <entry file="file://$PROJECT_DIR$/blogapp/models/Categorias.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        <state relative-caret-position="352">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogapp/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+        <state relative-caret-position="-88">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogapp/views/partials/_msg.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogapp/views/admin/addcategoria.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogapp/routes/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+          <folding>
+            <element signature="e#790#841#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogapp/views/layouts/main.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
         </state>
       </provider>
     </entry>
