@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const mongoose = require('mongoose');
-require('../models/Categorias');
-const Categoria = mongoose.model("categorias")
+require('../models/Categoria');
+const Categoria = mongoose.model("categorias");
 
 router.get('/', (req, res) => {
     res.render("admin/index")
