@@ -55,7 +55,7 @@ router.post('/categorias/nova', (req, res) => {
             req.flash("success_msg", "Categoria criada com sucesso!");
             res.redirect("/admin/categorias")
         }).catch((err) => {
-            req.flash("erro_msg", "Houve um erro ao salvar categoria, tente novamente!");
+            req.flash("erro_msg", "Houve um erro ao salvar categoria, tente novamente!" + err);
             res.redirect("/admin")
         });
     }
@@ -97,9 +97,22 @@ router.post("/categorias/deletar", (req, res) => {
         req.flash("success_msg", "Categoria excluida com sucesso!");
         res.redirect('/admin/categorias')
     }).catch((err) => {
-        req.flash("error_msg", "Houve um erro interno ao deletar dcategoria" + err);
+        req.flash("error_msg", "Houve um erro interno ao deletar categoria" + err);
         res.redirect('/admin/categorias')
     })
-})
+});
+
+router.get("/postagens", (req, res) => {
+    res.render("admin/postagens")
+});
+
+router.get("/postagens/add", (req, res) => {
+    Categoria.find().then((categorias) => {
+        res.render("admin/addpostagem", {categorias: categorias})
+    }).catch((err) => {
+        req.flash("error_msg", "Houve um erro ao carregar o formulário" + err);
+        res.redirect('/admin/postagens')
+    })
+});
 
 module.exports = router;
