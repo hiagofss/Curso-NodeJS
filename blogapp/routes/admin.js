@@ -189,10 +189,16 @@ router.post("/postagem/edit", (req, res) => {
         })
 
     }).catch((err) => {
-        console.log(err);
         req.flash("error_msg", "Houve um erro ao salvar a edição" + err);
         res.redirect('/admin/postagens');
     })
 });
+
+
+router.get("/postagens/deletar/:id", (req, res) => {
+    Postagem.remove({_id: req.params.id}).then(() => {
+        res.redirect("/admin/postagens")
+    })
+})
 
 module.exports = router;
