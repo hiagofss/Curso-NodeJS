@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0555ba2-5b2b-4434-864d-f7edc213a3a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blogapp/views/index.handlebars" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogapp/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogapp/routes/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogapp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogapp/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogapp/views/partials/_navbar.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/blogapp/views/partials/_navbar.handlebars" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,17 +35,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blogapp/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            <state relative-caret-position="455">
+              <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blogapp/views/index.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogapp/views/partials/_navbar.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blogapp/routes/admin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="199" column="51" selection-start-line="199" selection-start-column="51" selection-end-line="199" selection-end-column="51" />
+            <state relative-caret-position="198">
+              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -107,9 +127,7 @@
         <option value="$PROJECT_DIR$/Projeto01/index.js" />
         <option value="$PROJECT_DIR$/blogapp/views/admin/index.handlebars" />
         <option value="$PROJECT_DIR$/blogapp/views/partials/_navabar.handlebars" />
-        <option value="$PROJECT_DIR$/blogapp/views/partials/_navbar.handlebars" />
         <option value="$PROJECT_DIR$/blogapp/models/Categorias.js" />
-        <option value="$PROJECT_DIR$/blogapp/app.js" />
         <option value="$PROJECT_DIR$/blogapp/views/admin/addcategoria.handlebars" />
         <option value="$PROJECT_DIR$/blogapp/views/partials/_msg.handlebars" />
         <option value="$PROJECT_DIR$/blogapp/views/layouts/main.handlebars" />
@@ -121,6 +139,9 @@
         <option value="$PROJECT_DIR$/blogapp/views/admin/editpostagens.handlebars" />
         <option value="$PROJECT_DIR$/blogapp/views/admin/postagens.handlebars" />
         <option value="$PROJECT_DIR$/blogapp/routes/admin.js" />
+        <option value="$PROJECT_DIR$/blogapp/views/partials/_navbar.handlebars" />
+        <option value="$PROJECT_DIR$/blogapp/app.js" />
+        <option value="$PROJECT_DIR$/blogapp/views/index.handlebars" />
       </list>
     </option>
   </component>
@@ -176,7 +197,7 @@
               <item name="nodejs" type="462c0819:PsiDirectoryNode" />
               <item name="blogapp" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nodejs" type="b2602c69:ProjectViewProjectNode" />
@@ -261,7 +282,7 @@
       <workItem from="1556123052786" duration="54000" />
       <workItem from="1556123160158" duration="692000" />
       <workItem from="1556135551412" duration="33000" />
-      <workItem from="1556235575985" duration="4636000" />
+      <workItem from="1556235575985" duration="5453000" />
     </task>
     <task id="LOCAL-00001" summary="Aula 04">
       <created>1555732681554</created>
@@ -501,11 +522,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556240145840</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Editando postagens #48">
+      <created>1556240235213</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1556240235213</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45480000" />
+    <option name="totallyTimeSpent" value="46297000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="956" y="0" width="971" height="1047" extended-state="0" />
@@ -739,13 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogapp/views/partials/_msg.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Projeto02/aprendendo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-379">
@@ -755,20 +776,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Projeto02/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogapp/views/layouts/main.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogapp/views/partials/_navbar.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogapp/views/admin/index.handlebars">
       <provider selected="true" editor-type-id="text-editor">
@@ -826,13 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogapp/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blogapp/views/admin/categorias.handlebars">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -877,8 +877,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blogapp/routes/admin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="199" column="51" selection-start-line="199" selection-start-column="51" selection-end-line="199" selection-end-column="51" />
+        <state relative-caret-position="198">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogapp/views/partials/_msg.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogapp/views/layouts/main.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogapp/views/partials/_navbar.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogapp/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogapp/views/index.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
         </state>
       </provider>
     </entry>
