@@ -109,7 +109,7 @@ router.get("/postagens", (req, res) => {
     Postagem.find().populate("categoria").sort({data: "desc"}).then((postagens) => {
         res.render("admin/postagens", {postagens: postagens})
     }).catch((err) => {
-        req.flash("error_msg", "Houve um erro ao listar as postagens" + err)
+        req.flash("error_msg", "Houve um erro ao listar as postagens" + err);
         res.redirect("/admin")
     });
 
@@ -197,8 +197,12 @@ router.post("/postagem/edit", (req, res) => {
 
 router.get("/postagens/deletar/:id", (req, res) => {
     Postagem.remove({_id: req.params.id}).then(() => {
+        req.flash("success_msg", "Postagem deletada com sucesso!");
         res.redirect("/admin/postagens")
+    }).catch((err) => {
+        req.flash("error_msg", "Err Interno" + err);
+        res.redirect('/admin/postagens');
     })
-})
+});
 
 module.exports = router;
