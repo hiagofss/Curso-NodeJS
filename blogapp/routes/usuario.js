@@ -44,7 +44,7 @@ router.post("/registro", (req, res) => {
                     senha: req.body.senha
                 });
 
-                bcrypt.genSalt(10,(erro, salt) => {
+                bcrypt.genSalt(10, (erro, salt) => {
                     bcrypt.hash(novoUsuario.senha, salt, (erro, hash) => {
                         if (erro) {
                             req.flash("error_msg", "Houve um erro durante o salvamento do usuario");
@@ -57,11 +57,11 @@ router.post("/registro", (req, res) => {
                             req.flash("success_msg", "Usuario criado com sucesso!");
                             res.redirect("/")
                         }).catch((err) => {
-                            req.flash("error_msg", "Houve um erro durante o salvamento do usuario!");
+                            req.flash("error_msg", "Houve um erro durante o salvamento do usuario!" + err);
                             res.redirect("/usuarios/registro")
-                        })
-                    })
-                })
+                        });
+                    });
+                });
 
             }
         }).catch((err) => {
@@ -72,5 +72,9 @@ router.post("/registro", (req, res) => {
 
 
 });
+
+router.get("/login", (req, res) => {
+    res.render("usuarios/login")
+})
 
 module.exports = router;
