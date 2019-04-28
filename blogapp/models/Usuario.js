@@ -1,5 +1,5 @@
-const moongoose = require('mongoose');
-const Schema = moongoose.Schema;
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
 const Usuario = new Schema({
     nome: {
@@ -16,4 +16,4 @@ const Usuario = new Schema({
     }
 });
 
-moongoose.model("usuario", Usuario);
+mongoose.model("usuarios", Usuario);
