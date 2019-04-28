@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0555ba2-5b2b-4434-864d-f7edc213a3a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blogapp/views/index.handlebars" afterDir="false" />
+    <list default="true" id="c0555ba2-5b2b-4434-864d-f7edc213a3a6" name="Default Changelist" comment="Página de postagem #51">
+      <change afterPath="$PROJECT_DIR$/blogapp/views/postagem/index.handlebars" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogapp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogapp/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogapp/views/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/blogapp/views/index.handlebars" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogapp/views/partials/_navbar.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/blogapp/views/partials/_navbar.handlebars" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -35,17 +36,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blogapp/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
+            <state relative-caret-position="264">
+              <caret line="75" column="11" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blogapp/views/index.handlebars">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogapp/views/postagem/index.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+            <state relative-caret-position="154">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -53,35 +54,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blogapp/views/partials/_navbar.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+            <state relative-caret-position="264">
+              <caret line="12" column="53" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blogapp/routes/admin.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blogapp/views/index.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blogapp/views/admin/editcategorias.handlebars">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blogapp/views/admin/postagens.handlebars">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+            <state relative-caret-position="88">
+              <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -139,15 +122,17 @@
         <option value="$PROJECT_DIR$/blogapp/views/admin/editpostagens.handlebars" />
         <option value="$PROJECT_DIR$/blogapp/views/admin/postagens.handlebars" />
         <option value="$PROJECT_DIR$/blogapp/routes/admin.js" />
-        <option value="$PROJECT_DIR$/blogapp/views/partials/_navbar.handlebars" />
+        <option value="$PROJECT_DIR$/blogapp/views/postagem.handlebars" />
         <option value="$PROJECT_DIR$/blogapp/app.js" />
+        <option value="$PROJECT_DIR$/blogapp/views/postagem/index.handlebars" />
+        <option value="$PROJECT_DIR$/blogapp/views/partials/_navbar.handlebars" />
         <option value="$PROJECT_DIR$/blogapp/views/index.handlebars" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="956" />
-    <option name="width" value="971" />
+    <option name="x" value="961" />
+    <option name="width" value="966" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -172,24 +157,6 @@
               <item name="nodejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="nodejs" type="462c0819:PsiDirectoryNode" />
               <item name="blogapp" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nodejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodejs" type="462c0819:PsiDirectoryNode" />
-              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nodejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodejs" type="462c0819:PsiDirectoryNode" />
-              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nodejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodejs" type="462c0819:PsiDirectoryNode" />
-              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -197,7 +164,7 @@
               <item name="nodejs" type="462c0819:PsiDirectoryNode" />
               <item name="blogapp" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nodejs" type="b2602c69:ProjectViewProjectNode" />
@@ -232,6 +199,7 @@
       <recent name="C:\Users\hiago\Desktop\Workspace\nodejs\Projeto01\html" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hiago\Desktop\Workspace\nodejs\blogapp\views\postagem" />
       <recent name="C:\Users\hiago\Desktop\Workspace\nodejs\Projeto01\views" />
       <recent name="C:\Users\hiago\Desktop\Workspace\nodejs\Projeto01\views\layout" />
     </key>
@@ -282,7 +250,8 @@
       <workItem from="1556123052786" duration="54000" />
       <workItem from="1556123160158" duration="692000" />
       <workItem from="1556135551412" duration="33000" />
-      <workItem from="1556235575985" duration="5453000" />
+      <workItem from="1556235575985" duration="6472000" />
+      <workItem from="1556465151526" duration="544000" />
     </task>
     <task id="LOCAL-00001" summary="Aula 04">
       <created>1555732681554</created>
@@ -529,17 +498,24 @@
       <option name="project" value="LOCAL" />
       <updated>1556240235213</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Criando home page #50">
+      <created>1556241091351</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1556241091351</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46297000" />
+    <option name="totallyTimeSpent" value="47860000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="956" y="0" width="971" height="1047" extended-state="0" />
+    <frame x="961" y="0" width="966" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2151482" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20750552" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Project Explorer" order="3" weight="0.32995737" />
@@ -638,7 +614,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="13_Mysql" />
     <MESSAGE value="16_Sequelize" />
     <MESSAGE value="18_Models no Sequelize" />
     <MESSAGE value="19_Handlebars" />
@@ -663,7 +638,8 @@
     <MESSAGE value="Salvando postagens no banco de dados #46" />
     <MESSAGE value="Listando postagens #47" />
     <MESSAGE value="Editando postagens #48" />
-    <option name="LAST_COMMIT_MESSAGE" value="Editando postagens #48" />
+    <MESSAGE value="Criando home page #50" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando home page #50" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/04_Modulos/div.js">
@@ -861,20 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogapp/views/admin/editcategorias.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogapp/views/admin/postagens.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blogapp/routes/admin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -896,24 +858,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogapp/views/partials/_navbar.handlebars">
+    <entry file="file://$PROJECT_DIR$/blogapp/views/admin/postagens.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogapp/views/admin/editcategorias.handlebars">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogapp/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
+        <state relative-caret-position="264">
+          <caret line="75" column="11" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogapp/views/postagem/index.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogapp/views/partials/_navbar.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogapp/views/index.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        <state relative-caret-position="88">
+          <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
         </state>
       </provider>
     </entry>

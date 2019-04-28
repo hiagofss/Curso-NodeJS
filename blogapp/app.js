@@ -9,7 +9,7 @@ const path = require('path');
 const session = require('express-session');
 const flash = require('connect-flash');
 require("./models/Postagem");
-const Postagens = mongoose.model("postagens");
+const Postagem = mongoose.model("postagens");
 
 /*
  Configurações
@@ -23,7 +23,7 @@ app.use(session({
 app.use(flash());
 
 //Middleware
-app.use((req, res, next) =>{
+app.use((req, res, next) => {
     res.locals.success_msg = req.flash("success_msg");
     res.locals.error_msg = req.flash("error_msg");
     next();
@@ -48,14 +48,14 @@ mongoose.connect('mongodb://localhost/blogapp', {useNewUrlParser: true}).then(()
 //Public
 app.use(express.static(path.join(__dirname, "public")));
 
-app.use((req, res, next) =>{
-   console.log("Eu sou um middleware");
+app.use((req, res, next) => {
+    console.log("Eu sou um middleware");
     next()
 });
 
 //Rotas
 app.get('/', (req, res) => {
-    Postagens.find().populate("categoria").sort({data: "desc"}).then((postagem) => {
+    Postagem.find().populate("categoria").sort({data: "desc"}).then((postagem) => {
         res.render("index", {postagem: postagem})
     }).catch((err) => {
         req.flash("error_msg", "Houve um erro interno")
@@ -64,9 +64,23 @@ app.get('/', (req, res) => {
 
 });
 
+app.get("/postagem/:slug", (req, res) => {
+    Postagem.findOne({slug: req.params.slug}).then((postagem) => {
+        if (postagem) {
+            res.render("postagem/index", {postagem: postagem});
+        } else {
+            req.flash("error_msg", "Esta postagem não exite");
+            res.redirect("/");
+        }
+    }).catch((err) => {
+        req.flash("error_msg", "Houve um erro interno" + err);
+        res.redirect("/");
+    });
+});
+
 app.get("/404", (req, res) => {
     res.send('Error 404!')
-})
+});
 
 app.use('/admin', admin);
 
