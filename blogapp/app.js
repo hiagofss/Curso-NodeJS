@@ -11,8 +11,9 @@ const session = require('express-session');
 const flash = require('connect-flash');
 require("./models/Postagem");
 const Postagem = mongoose.model("postagens");
-const Categoria = mongoose.model("categorias")
-
+const Categoria = mongoose.model("categorias");
+const passport = require('passport');
+require('./config/auth')(passport);
 /*
  Configurações
 Session
@@ -22,6 +23,10 @@ app.use(session({
     resave: true,
     saveUninitialized: true
 }));
+
+app.use(passport.initialize());
+app.use(passport.session());
+
 app.use(flash());
 
 //Middleware
