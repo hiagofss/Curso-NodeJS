@@ -14,6 +14,7 @@ const Postagem = mongoose.model("postagens");
 const Categoria = mongoose.model("categorias");
 const passport = require('passport');
 require('./config/auth')(passport);
+const db = require('./config/db');
 /*
  Configurações
 Session
@@ -48,7 +49,7 @@ app.set('view engine', 'handlebars');
 
 //Mongoose
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/blogapp', {useNewUrlParser: true}).then(() => {
+mongoose.connect(db.mongoURI, {useNewUrlParser: true}).then(() => {
     console.log("Conectado com sucesso!")
 }).catch((erro) => {
     console.log("Houve um erro ao se conectar: " + erro)
@@ -124,7 +125,7 @@ app.use('/usuarios', usuarios);
 
 //Outros
 
-const PORT = 8081;
+const PORT = process.env.PORT || 8089;
 app.listen(PORT, () => {
     console.log("Servidor rodando na URL http://127.0.0.1:" + PORT + "/")
 });
